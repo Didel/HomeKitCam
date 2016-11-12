@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Didel/HomeKitCam#readme",
   "dependencies": {
-    "hap-nodejs": "^0.4.15"
+    "hap-nodejs": "^0.4.15",
+    "shelljs": "^0.7.5"
   }
 }
