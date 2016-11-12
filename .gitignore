@@ -1,0 +1,2 @@
+#Ignore the node_modules directory, use 'npm install' instead.
+node_modules/

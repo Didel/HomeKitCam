@@ -1,0 +1,22 @@
+{
+  "name": "homekitcam",
+  "version": "1.0.0",
+  "description": "A project to make a Raspberry Pi driven, HomeKit Enabled camera.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Didel/HomeKitCam.git"
+  },
+  "author": "Dimiter Geelen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Didel/HomeKitCam/issues"
+  },
+  "homepage": "https://github.com/Didel/HomeKitCam#readme",
+  "dependencies": {
+    "hap-nodejs": "^0.4.15"
+  }
+}
