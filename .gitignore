@@ -1,2 +1,6 @@
 #Ignore the node_modules directory, use 'npm install' instead.
 node_modules/
+
+#The persist-folder contains homekit-accesory cache and should only exist
+#on the pi/device NodeJS is run on.
+persist/
