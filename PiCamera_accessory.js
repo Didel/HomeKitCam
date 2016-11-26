@@ -6,12 +6,12 @@ var shell = require('shelljs');
 var fs = require('fs');
 
 Camera.prototype.handleSnapshotRequest = function(request, callback) {
-    var raspistill = `raspistill -w ${request.width} -h ${request.height} -t 10 -o ./temp/snapshot.jpg`;
+    var raspistill = `raspistill -w ${request.width} -h ${request.height} -t 10 -o ./snapshots/snapshot.jpg`;
 
     shell.exec(raspistill, function(code, stdout, stderr) {
         var snapshot = undefined;
         if (code === 0) {
-          snapshot = fs.readFileSync(__dirname + '/temp/snapshot.jpg');
+          snapshot = fs.readFileSync(__dirname + '/snapshots/snapshot.jpg');
         }
         callback(stderr, snapshot);
     });
