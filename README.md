@@ -7,4 +7,4 @@ To install, clone the project into a folder. Then cd to that directory, and run 
 
 The camera can be run by running the command: node PiCameraAccesory.js 
 
-On any iOS 10 device, open the Home app and add a new accessory. The Raspberry should show up as 'Pi Camera'. When asked to scan the HomeKit accessory code, choose to manually enter a code and enter xxx. After that, the pairing should be successful and the camera should start to send screenshots to the Home app.
+On any iOS 10 device, open the Home app and add a new accessory. The Raspberry should show up as 'Pi Camera'. When asked to scan the HomeKit accessory code, choose to manually enter a code and enter 31-45-154. After that, the pairing should be successful and the camera should start to send screenshots to the Home app.
